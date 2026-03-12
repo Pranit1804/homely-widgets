@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Flashlight Toggle Widget — 1×1 cell
+    Action: Real torch toggle via Camera2 CameraManager.setTorchMode()
+    Requires CAMERA permission.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen" />

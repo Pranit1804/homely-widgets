@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Device Admin policies — used by HomelyDeviceAdminReceiver.
+    Only force-lock is requested; no data wipe or other invasive policies.
+-->
+<device-admin>
+    <uses-policies>
+        <force-lock />
+    </uses-policies>
+</device-admin>

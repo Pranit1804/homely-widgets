@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Airplane Mode Widget — 1×1 cell
+    Action: Opens Settings.ACTION_AIRPLANE_MODE_SETTINGS (cannot toggle directly on Android 4.2+)
+    Refreshes via AIRPLANE_MODE broadcast receiver.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen" />
